@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina</title>
+        
+        <link rel="stylesheet" href="assets/Pagina.css">
+    </head>
+    <body> 
+        <header>
+            <h1><img class="search" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/search-icon.png"
+                width="40" height="40"
+                >   Christie_Verne</h1>
+        </header>
+        <p></p>
+        <div>
+            <p id="mensaje">Mensaje</p>
+            <div class="caja1">
+                <textarea id="msj" name="msj" class="encriptado-caja" placeholder="Escribe el texto a encriptar aquí!" maxlength="420" ></textarea>
+                <span id="contador">0/420</span>
+                
+            </div>
+            <div>
+                <img src="https://image.flaticon.com/icons/png/512/306/306000.png" width="300" class="img1">
+            </div>
+            <p id="code">Código</p>
+            <div class="caja2">
+                <input type="number" id="codigo" class="codigo-caja" placeholder="Escriba el código aquí" >
+                
+            </div>
+            <p></p>
+            <div id="botones">
+                <button id="en" name="en">🔒Encriptar</button> 
+                <button id="des" name="des">🔓Desencriptar </button>
+            </div>
+        </div>
+        <main>
+            <section class="modalContenedor contenedorClose">
+                <div id="mensajeResultado" class="modal modalClose">
+                    <p id="close"></p>
+                    <label for="mensajeResultado" id="labelMsjResultado">Su mensaje es</label>
+                    <div><textarea id ="msjResultado" name="textarea" class="msjResultado"></textarea></div>
+                    <div>
+                        <button id="copia" name="copia" type="button">
+                            <i class='fcopia'></i>Copiar
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <center><img src="https://www.nibcode.com/images/contents/1130/primary.png" width="1000" class="img2"></center>
+            </div>
+        </main>
+        
+        <footer>
+            <button class="Face"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//geraldine004.github.io/PaginaEncriptadora1/Index">Share on Facebook</a>Share on Facebook</a></button>
+            <p>Footer</p>
+        </footer>
+        <script src="assets/Pagina.js"></script> 
+    </body>
+</html>
